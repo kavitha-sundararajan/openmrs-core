@@ -454,7 +454,7 @@
 		<addForeignKeyConstraint constraintName="medication_administration_drug_order_fk" baseTableName="medication_administration" baseColumnNames="drug_order_id" referencedTableName="drug_order" referencedColumnNames="order_id"/>
 		<addForeignKeyConstraint constraintName="medication_administration_status_fk" baseTableName="medication_administration" baseColumnNames="status" referencedTableName="concept" referencedColumnNames="concept_id"/>
 		<addForeignKeyConstraint constraintName="medication_administration_status_reason_fk" baseTableName="medication_administration" baseColumnNames="status_reason" referencedTableName="concept" referencedColumnNames="concept_id"/>
-		<addForeignKeyConstraint constraintName="medication_dispense_dose_units_fk" baseTableName="medication_dispense" baseColumnNames="dose_units" referencedTableName="concept" referencedColumnNames="concept_id"/>
+		<addForeignKeyConstraint constraintName="medication_administration_dose_units_fk" baseTableName="medication_administration" baseColumnNames="dose_units" referencedTableName="concept" referencedColumnNames="concept_id"/>
 		<addForeignKeyConstraint constraintName="medication_administration_route_fk" baseTableName="medication_administration" baseColumnNames="route" referencedTableName="concept" referencedColumnNames="concept_id"/>
 		<addForeignKeyConstraint constraintName="medication_administration_creator_fk" baseTableName="medication_administration" baseColumnNames="creator" referencedTableName="users" referencedColumnNames="user_id"/>
 		<addForeignKeyConstraint constraintName="medication_administration_changed_by_fk" baseTableName="medication_administration" baseColumnNames="changed_by" referencedTableName="users" referencedColumnNames="user_id"/>
